@@ -17,11 +17,11 @@ __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file
 default_config_file = os.path.join(__location__, 'config.ini')
 config = configparser.RawConfigParser()
 	
-# Convert accounts in github to devtopia, for example: convert oopsliu in github to zhen9978 in devtopia	
+# Convert accounts in github to devtopia, for example: convert oo**iu in github to zh**78 in devtopia	
 assigneeDict = {
-	'survey123bj': 'zhen9978',
-	'back-references': 'zhen9978',
-	'callable': 'zhen9978'
+	'survey123bj': '',
+	'back-references': '',
+	'callable': ''
 	}
 
 class state:
