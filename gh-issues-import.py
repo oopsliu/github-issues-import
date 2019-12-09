@@ -19,9 +19,10 @@ config = configparser.RawConfigParser()
 	
 # Convert accounts in github to devtopia, for example: convert oo**iu in github to zh**78 in devtopia	
 assigneeDict = {
-	'survey123bj': '',
-	'back-references': '',
-	'callable': ''
+	'a': 'aa',
+	'b': 'bb',
+	'c': 'cc',
+	'd': 'dd'
 	}
 
 class state:
@@ -327,8 +328,8 @@ ISSUE_EVENTS = {
 	'closed' :            format_event_closed,
 	'reopened' :          format_event_reopened,
 	'renamed' :           format_event_renamed,
-	'referenced' :        format_event_referenced,
-#	'cross-referenced' :  format_event_cross_referenced,
+	'referenced' :        format_event_referenced
+#	'cross-referenced' :  format_event_cross_referenced
 }
 
 def send_request(which, url, post_data=None, method=None, content_length=None,
